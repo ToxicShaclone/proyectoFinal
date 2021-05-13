@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap" rel="stylesheet">   
+    <link rel="stylesheet" href="Css/estilo.css">
+</head>
+<body>
+    <!-- header -->
+
+<header>
+    <nav>
+        <ul class="menu">
+            <a href="index.html">
+                <img src="img/logos/logo 2.png" class="logoMenu1" alt="logoIndex" width="50px" height="50px">
+            </a>
+            <li><a href="index.html">home</a> </li>
+            <li><a href="otrosJuegos.html">otros juegos</a> </li>
+            <li><a href="mundiales.html">mundiales</a> </li>
+            <li><a href="lineas.html">lineas</a></li>
+            <li><a href="contacto.html">contacto</a></li>
+        </ul>
+    </nav>
+    <div class="imgIndex">
+        <img src="img/img home/logo lol.jpg" alt="logoLOL">
+    </div>
+</header>
+
+<!-- section -->
+<section>
+    <h2 class="tituloContacto">Ayudanos a mejorar</h2>
+        <form class="formulario container" action="form" method="GET" accept-charset="utf-8">
+            <div class="row">
+                <div class="col-12">
+                    <label for="name">Nombre :</label>
+                    <input type="text" id="name" name="nombre">
+                </div>
+                <div class="col-12">
+                    <label for="s-name">Apellido :</label>
+                    <input type="text"  id="s-name" form="apellido">
+                </div>
+                <div class="col-12">
+                    <label for="email" >Ingresa tu email :</label>
+                    <input type="email" id="email" name="ejemplo_mail" placeholder="nombre@gmail.com">
+                </div>
+                <div class="col-12">
+                    <label for="seleccionargenero">Selecciona tu género :</label>
+                    <select name="sexo">
+                        <option name= "hombre">Hombre</option>
+                        <option name= "mujer">Mujer</option>
+                        <option name= "otro">Otro</option>
+                    </select>
+                </div>
+                <div class="col-12">
+                    <label for="consulta">Contanos en que podriamos mejorar :</label>
+                    <textarea name="consulta" rows="5" col-mds="10" placeholder="comentarios" ></textarea>
+                </div>
+                <div class="col-12">
+                    <input class="btn btn_form" type="submit" value="Enviar Formulario">
+                    <input class="btn btn_form" type="reset" value="Borrar Formulario">
+                </div>
+            </div>
+        </form>
+</section>
+
+<!-- footer -->
+<footer class="logos">
+    <p>
+        Web diseñada por Emiliano Rodriguez
+    </p>
+    <a href="https://instagram.com/leagueoflegends?igshid=faib1h7he4kt" target="_blank"> <img src="img/logos/ig.png" alt="logoDeInstagram">
+    </a>
+    <a href="https://www.facebook.com/" target="_blank"> <img src="img/logos/facebook.png" alt="logoDeFacebook">
+    </a>
+    <a href="https://las.leagueoflegends.com/es-ar/" target="_blank"> <img src="img/logos/riot logo.png" alt="logoDeRiotGames">
+    </a>
+</footer>
+</body>
+</html>

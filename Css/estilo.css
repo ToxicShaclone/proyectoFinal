@@ -1,0 +1,610 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+
+.logoMenu1{
+    margin-left: 35px;
+    margin-top: 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center; 
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: #313131;
+    align-items: center;
+}
+
+ul{
+    height: 100%;
+    width: 100%;
+    height: 60px;
+    list-style-type: none;
+    margin: 0; 
+}
+ul li {
+    display: inline-block;
+    width: 35%;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    padding-top: 10px;
+}
+ul a{
+    color: whitesmoke;
+    font-size: 25px;
+    font-family: 'Fredericka the Great', cursive; 
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.imgIndex img{
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+}
+.imgIndex1 img{
+    max-width: 100%;
+    width: 100%;
+    height: 500px;
+}
+
+
+
+
+
+
+
+
+
+/* section */
+section{
+    width: 100%;
+    height: 100%;
+}
+
+/* index */
+
+.lol{
+    width: 60%;
+    margin: 5% ;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.lol h2{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.lol p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* fin de index */
+
+/* lineas */
+
+.lineas1{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-gap: 25px;
+    padding: 20px;
+    background: #00F260;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+
+}
+
+.lane{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: #000000;
+    background-image: url(../img/img\ home/KyeMeh.jpg);
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
+    transition: 1s;
+}
+.lane:hover{
+transform:translate(20px)
+}
+.lane img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+}
+.tituloLineas {
+    text-align: center;
+    margin: 0;
+    padding-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+    font-family: 'Permanent Marker';
+    background: #ffffff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0575E6, #00F260);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0575E6, #00F260); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.lane1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
+.lane1 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+}
+.lane1 h2{
+    color: rgb(0, 0, 0);
+    font-size:2rem;
+    margin-bottom: 30px;
+}
+
+/* fin de lineas */
+
+/* jungla */
+
+.contenedorJg{
+    display: flex;
+}
+.pyh{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+}
+.pyh h2{
+    margin-top: 25px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.pyh p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+.pyh img{
+    width: 500px;
+    height: 400px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+/* fin de la jungla */
+
+/* mundiales */
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows:repeat(2);
+    grid-template-areas:
+        "foto foto foto foto foto"
+        "foto foto foto foto foto";
+    grid-gap: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+.mundiales{
+    grid-area: foto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+    justify-content: center;
+}
+.tituloMundiales{
+    margin: 0;
+    padding-top: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    font-size: 3rem;
+}
+
+
+.contenidoMundiales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 2s;
+    
+}
+.contenidoMundiales p{
+    font-family: "Bebas Neue";
+    font-size: 1.5rem;
+    color: #ffffff;
+    align-self: center;
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+}
+
+.contenidoMundiales img{
+    width: 250px;
+    height: 250px;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
+    object-fit: cover;
+}
+
+.contenidoMundiales:hover{
+    transform: scale(1.05);
+}
+.contenidoMundiales p:hover{
+    opacity: 3;
+    margin: 10px;
+    padding: 10px;
+    color: black;
+    font-weight: bold;
+    background: #007991;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #78ffd6, #007991);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #78ffd6, #007991); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    
+}
+
+
+
+/* mid */
+
+.mts p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+.mts h2{
+    margin: 25px;
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Wallpoet', cursive;
+}
+
+
+/* carrusel */
+.divCarrusel{
+    height: auto;
+    width: auto;
+    display: flex;
+}
+
+.mejoresPicks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.peoresPicks{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.carousel{
+    width: 400px !important;
+    height: 600px
+}
+
+.carousel-item img{
+    width: 400px !important;
+    height: 600px;
+}
+/* fin del carrusel */
+
+
+/* objetivos */
+.container_principal{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.divDrake{
+    width:500px;
+    height: 600px;
+    margin: 10px auto;
+    background-color: rgb(135, 230, 116);
+    border-radius: 20px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.divDrake p{
+    margin-left: 0;
+}
+
+.divDrake img{
+    width: 360px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.divDrake h3{
+    font-size: 2rem;
+}
+
+.divDrake:hover{
+    transform: translate(-20px);
+}
+
+h1{
+    text-align: center;
+    margin: 25px 0 25px 0;
+}
+/* fin de objetivos */
+
+.href{
+    z-index: 5;
+    text-decoration: none;
+}
+
+/* Otros juegos */
+.divPadre{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    height: auto;
+    width: 100%;
+    grid-gap: 25px;
+    padding: 20px;
+}
+
+.divHijo{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: black;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
+    transition: 1s;
+}
+
+.divHijo1{
+    background-image: url(../img/otros\ juegos/BoraBora.jpg);
+    background-size:100%;
+    object-fit: cover;
+
+}
+
+.divHijo1 h2{
+    color:rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.divHijo1 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: 'Paytone One';
+    margin: 20px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.divHijo:hover{
+    transform: translate(15px);
+}
+
+.divHijo2{
+    background-image: url(../img/otros\ juegos/JShine.jpg);
+    transition: 1s;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: black;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
+}
+
+.divHijo2 h2{
+    color:rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.divHijo2 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.3rem;
+    font-family: 'Paytone One';
+    margin: 25px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.divHijo2:hover{
+    transform: translate(15px);
+}
+
+.divHijo3{
+    background-image: url(../img/otros\ juegos/Petrol.jpg);
+    transition: 1s;
+    justify-content: center;
+    flex-direction: row;
+    align-self: center;
+    height: auto;
+    background-color: black;
+    box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
+    -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
+}
+
+
+.divHijo3 p{
+    color: rgb(0, 0, 0);
+    font-size: 1.2rem;
+    font-family: 'Paytone One';
+    margin: 20px;
+    text-align:center;
+    font-weight: bold;
+}
+
+.divHijo3 h2{
+    color:rgb(0, 0, 0);
+    font-size: 3rem;
+    text-align: center;
+    margin: 20px;
+}
+
+.divHijo3:hover{
+    transform: translate(15px);
+}
+
+/* fin otros juegos */
+
+
+
+/* contacto */
+.tituloContacto{
+    margin: 30px 0;
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+}
+.row{
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x)/ -2);
+    margin-left: calc(var(--bs-gutter-x)/ -2);
+}
+
+.row a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 40px; 
+}
+
+.row a div{
+    text-align: center; 
+}
+.btn{
+    color: black;
+    margin: 1rem;
+    background: #ffffff;
+}
+
+.formulario{
+    width: 500px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+}
+
+.formulario div{
+    background-color: #b8ad6e;
+    padding: 3%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    letter-spacing: 0.1rem;
+}
+
+.formulario div .btn_form{
+    font-weight: bold;
+    background-color: #ffffff;
+    margin-right: 50px;
+}
+/* fin del contacto */
+
+/* footer */
+footer{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #313131; 
+    margin-bottom: 0;
+}
+
+footer p{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Fredericka the Great', cursive; 
+    text-decoration: none;
+    font-weight: 200;
+    color: whitesmoke;
+    margin: 0;
+} 
+
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+footer a img{
+    width: 40px;
+    height: 40px;
+}
+/* fin del footer */
