@@ -242,13 +242,13 @@ transform:translate(20px)
 
 
 .contenidoMundiales{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 20px;
-    position: relative;
-    overflow: hidden;
-    transition: 2s;
+    font-family:'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    color: #ffffff;
+    align-self: center;
+    position: absolute;
+    bottom: -100%;
+    transition: 1s;
     
 }
 .contenidoMundiales p{
@@ -273,8 +273,8 @@ transform:translate(20px)
 .contenidoMundiales:hover{
     transform: scale(1.05);
 }
-.contenidoMundiales p:hover{
-    opacity: 3;
+.contenidoMundiales :hover p{
+    bottom: 30px;
     margin: 10px;
     padding: 10px;
     color: black;
