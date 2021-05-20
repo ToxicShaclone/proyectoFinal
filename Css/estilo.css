@@ -74,6 +74,26 @@ section{
 
 /* index */
 
+.riotGames{
+    width: 60%;
+    margin: 5% ;
+    margin-right: auto;
+    margin-left: auto;
+}
+.riotGames h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+    font-family: 'Wallpoet', cursive;
+}
+
+.riotGames p{
+    text-align: center;
+    font-size: 1.4rem;
+    background-color:rgb(185, 185, 185);
+    font-weight: bold;
+}
+
 .lol{
     width: 60%;
     margin: 5% ;
@@ -81,7 +101,7 @@ section{
     margin-left: auto;
 }
 
-.lol h2{
+.lol h1{
     text-align: center;
     color: black;
     font-size: 50px;
@@ -91,6 +111,8 @@ section{
 .lol p{
     text-align: center;
     font-size: 1.4rem;
+    background-color:rgb(185, 185, 185);
+    font-weight: bold;
 }
 
 /* fin de index */
@@ -551,21 +573,35 @@ h1{
 }
 
 .formulario div{
-    background-color: #b8ad6e;
+    background-color: #2db1bb;
     padding: 3%;
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    color: black;
+    color: rgb(0, 0, 0);
     font-size: 1.2rem;
     letter-spacing: 0.1rem;
+    border-radius: 25px;
 }
 
 .formulario div .btn_form{
     font-weight: bold;
     background-color: #ffffff;
     margin-right: 50px;
+    width: 170px;
+    height: 65px;
+    font-size: 18px;
 }
+
+input{
+    border-radius: 8px;
+    height: 30px;
+}
+textarea{
+    border-radius: 10px;
+}
+
+
 /* fin del contacto */
 
 /* footer */
