@@ -262,20 +262,17 @@ transform:translate(20px)
     flex-direction: column;
     justify-content: center;
     padding: 20px;
-    position: relative;
     overflow: hidden;
     transition: 2s;
     
 }
 .contenidoMundiales p{
-    font-family:fantasy;
-    font-size: 1.5rem;
-    align-self: center;
+    font-family: fantasy;
+    font-size: 1.5rem; 
     position: absolute;
-    bottom: -100%;
     transition: 1.3s;
     padding: 15px;
-    margin-left: 30px;
+    display: none;
 }
 
 .contenidoMundiales img{
@@ -291,7 +288,7 @@ transform:translate(20px)
     transform: scale(1.05);
 }
 .contenidoMundiales :hover p{
-    bottom: 100px;
+    display: block;
     color: black;
     font-weight: bold;
     background: #007991;  /* fallback for old browsers */
@@ -300,7 +297,15 @@ transform:translate(20px)
     
 }
 
+.href{
+    z-index: 5;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+/* fin de mundiales */
 
 /* mid */
 
@@ -403,10 +408,7 @@ h1{
 }
 /* fin de objetivos */
 
-.href{
-    z-index: 5;
-    text-decoration: none;
-}
+
 
 /* Otros juegos */
 .divPadre{
