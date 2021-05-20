@@ -90,7 +90,10 @@ section{
 .riotGames p{
     text-align: center;
     font-size: 1.4rem;
-    background-color:rgb(185, 185, 185);
+    color: rgb(0, 0, 0);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-weight: bold;
 }
 
@@ -109,9 +112,12 @@ section{
 }
 
 .lol p{
+    color: rgb(0, 0, 0);
     text-align: center;
     font-size: 1.4rem;
-    background-color:rgb(185, 185, 185);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-weight: bold;
 }
 
@@ -140,7 +146,9 @@ section{
     align-self: center;
     height: auto;
     background-color: #000000;
-    background-image: url(../img/otros\ juegos/BoraBora.jpg);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 30%);
     transition: 1s;
 }
@@ -430,8 +438,9 @@ h1{
 }
 
 .divHijo1{
-    background-image: url(../img/otros\ juegos/BoraBora.jpg);
-    background-size:100%;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     object-fit: cover;
 
 }
@@ -459,7 +468,9 @@ h1{
 .divHijo2{
     width: 80%;
     margin: 0 auto;
-    background-image: url(../img/otros\ juegos/JShine.jpg);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: 1s;
     justify-content: center;
     flex-direction: row;
@@ -494,7 +505,9 @@ h1{
 .divHijo3{
     width: 80%;
     margin: 0 auto;
-    background-image: url(../img/otros\ juegos/Petrol.jpg);
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     transition: 1s;
     justify-content: center;
     flex-direction: row;
@@ -573,7 +586,9 @@ h1{
 }
 
 .formulario div{
-    background-color: #2db1bb;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     padding: 3%;
     display: flex;
     justify-content: flex-start;
