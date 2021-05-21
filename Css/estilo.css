@@ -79,6 +79,7 @@ section{
     margin: 5% ;
     margin-right: auto;
     margin-left: auto;
+    padding: 15px;
 }
 .riotGames h1{
     text-align: center;
@@ -95,6 +96,8 @@ section{
     background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 .lol{
@@ -119,6 +122,8 @@ section{
     background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     font-weight: bold;
+    border-radius: 15px;
+    padding: 15px;
 }
 
 /* fin de index */
@@ -151,6 +156,7 @@ section{
     background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 1px 1px 5px 5px rgb(0 0 0 / 30%);
     transition: 1s;
+    border-radius: 15px;
 }
 .lane:hover{
 transform:translate(20px)
@@ -159,6 +165,7 @@ transform:translate(20px)
     width: 250px;
     height: auto;
     object-fit: cover;
+    border-radius: 15px;
 }
 .tituloLineas {
     text-align: center;
@@ -167,6 +174,7 @@ transform:translate(20px)
     color: rgb(0, 0, 0);
     font-size: 50px;
     font-family: 'Permanent Marker';
+    
 }
 
 .lane1{
@@ -282,6 +290,7 @@ transform:translate(20px)
     -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
     -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
     object-fit: cover;
+    border-radius: 15px;
 }
 
 .contenidoMundiales:hover{
@@ -354,12 +363,13 @@ transform:translate(20px)
 
 .carousel{
     width: 400px !important;
-    height: 600px
+    height: 600px    
 }
 
 .carousel-item img{
     width: 400px !important;
     height: 600px;
+    border-radius: 15px;
 }
 /* fin del carrusel */
 
