@@ -52,6 +52,7 @@ ul a{
     height: 500px;
     object-fit: cover;
 }
+
 .imgIndex1 img{
     max-width: 100%;
     width: 100%;
@@ -222,6 +223,9 @@ transform:translate(20px)
     font-weight: bold;
     text-align: center;
     margin: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 .pyh img{
     width: 500px;
@@ -323,13 +327,16 @@ transform:translate(20px)
     font-weight: bold;
     text-align: center;
     margin: 20px;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #7e7f80);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .mts h2{
     margin: 25px;
     text-align: center;
     color: black;
-    font-size: 50px;
+    font-size: 45px;
     font-family: 'Wallpoet', cursive;
 }
 
@@ -442,31 +449,26 @@ h1{
     flex-direction: row;
     align-self: center;
     height: auto;
-    background-color: black;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
     -webkit-box-shadow: 5px 5px 5px 0px rgb(0 0 0 / 75%);
     -moz-box-shadow: 5px 5px 5px 0px rgba(31, 31, 31, 0.75);
     transition: 1s;
 }
 
-.divHijo1{
-    background: #bdc3c7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    object-fit: cover;
 
-}
-
-.divHijo1 h2{
+.divHijo h2{
     color:rgb(0, 0, 0);
     font-size: 3rem;
     text-align: center;
     margin: 20px;
 }
 
-.divHijo1 p{
+.divHijo p{
     color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Paytone One';
     margin: 20px;
     text-align:center;
@@ -503,7 +505,7 @@ h1{
 
 .divHijo2 p{
     color: rgb(0, 0, 0);
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     font-family: 'Paytone One';
     margin: 25px;
     text-align:center;
@@ -534,7 +536,7 @@ h1{
 
 .divHijo3 p{
     color: rgb(0, 0, 0);
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Paytone One';
     margin: 20px;
     text-align:center;
@@ -662,3 +664,200 @@ footer a img{
     height: 40px;
 }
 /* fin del footer */
+
+/* menu responsive */
+
+.icon {
+    display: none;
+}
+
+#menuR:target{
+    display: block;
+}
+
+
+
+/* media queries */
+
+@media screen and (max-width:425px){
+
+    .imgIndex1 img{
+        height: 400px;
+    }
+
+    .imgIndex img{
+        height: 400px;
+    }
+
+    .index div{
+        
+        width: 90%;
+    }
+
+    .index div p{
+        font-size: 1.1rem;
+    }
+
+    .logos p{
+        font-size: 1.1rem;
+    }
+
+    .logos a{
+        margin-right: 10px;
+    }
+
+    .divPadre div{
+        width: 90%;
+    }
+
+    .lineas1 div{
+        width: 90%;
+    }
+
+    .lineas1 div img{
+        width: 350px;
+        height: 100px;
+        position: absolute;
+    } 
+    .row div{
+        width: 80%;
+    }
+    .divCarrusel{
+        display: block;
+    }
+    
+    .contenedorJg{
+        display: block;
+    }
+
+    .container_principal{
+        display: block;
+    }
+
+    .container_principal div{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:375px){
+    
+    .imgIndex1 img{
+        height: 300px;
+    }
+
+    .imgIndex img{
+        height: 300px;
+    }
+
+    .pyh img{
+        width: 400px;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .divPadre div p{
+        margin: 0;
+    }
+    
+    .carousel-item img{
+        width: 360px !important;
+        margin-left: 20px;
+    }
+
+    .lineas1 div h2{
+        margin-left: 15px;
+    }
+
+    .lineas1 div img{
+        width: 303px;
+    }
+
+    .container_principal img{
+        width: 300px;
+    }
+    .formulario{
+        width: 90%;
+        
+    }
+    .formulario div {
+        padding: 2%;
+    } 
+    label{
+        font-size: 17px;
+    }
+    textarea{
+        width: 200px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .formulario div .btn_form{
+        width: 140px;
+        height: 70px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+}
+
+@media screen and (max-width:320px) {
+
+    .imgIndex img{
+        height: 300px;
+    }
+    .index div{
+        width: 100%;
+    }
+    .index div p{
+        padding: 0;
+        font-size: 14px;
+    }
+    .lol{
+        padding: 15px;
+    }
+    .logos a{
+        margin-left: 10px;
+    }
+    .logos p{
+        font-size: 15px;
+    }
+    .logos img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .divPadre div{
+        width: 100%;
+    }
+    .divPadre div p{
+        font-size: 1rem;
+    }
+
+    .carousel-item img{
+        width: 301px !important;
+        margin-left: 50px;
+        object-fit: cover;
+    }
+
+    .imgIndex1 img{
+        height: 300px;
+    }
+    .pyh img{
+        object-fit: contain;
+        width: 320px;
+        height: 375px;
+        margin: 0;
+    }
+    .divDrake img{
+        width: 250px;
+    }
+    
+    .lineas1 div img{
+        width: 252px;
+    }
+    
+    .formulario div .btn_form{
+        width: 125px;
+        height: 60px;
+        font-size: 14px;
+        margin-right: 0;
+    }
+}
