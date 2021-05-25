@@ -403,6 +403,8 @@ transform:translate(20px)
 
 .divDrake p{
     margin-left: 0;
+    font-weight: bold;
+    font-size: 18px;
 }
 
 .divDrake img{
@@ -859,5 +861,72 @@ footer a img{
         height: 60px;
         font-size: 14px;
         margin-right: 0;
+    }
+}
+
+@media screen and (max-width:768px) {
+    
+    .index div{
+        width: 100%;
+        padding: 15px;
+    }
+
+    .index div p{
+        padding: 0;
+    }
+
+    .logos p {
+        font-size: 25px;
+
+    }
+    .logos a{
+        margin-right: 10px;
+    }
+
+    .divPadre div{ 
+        width: 100%;
+    }
+
+    .lineas1 div{
+        width: 100%;
+    }
+    .divCarrusel{
+        display: block;
+    }
+
+    .contenedorJg{
+        display: block;
+    }
+
+    .pyh img{
+        width: 600px;
+        height: 500px;
+        object-fit: cover;
+        margin-right: 0;
+    }
+
+    .container_principal{
+        display: block;
+    }
+
+    .formulario{
+        width: 600px;
+    }
+    .formulario input{ 
+        height: 45px;
+    }
+    .formulario label{
+        font-size: 25px;
+    }
+    .formulario select{
+        width: 75px;
+        height: 45px;
+    }
+
+    .formulario div .btn_form{
+        width: 200px;
+        height: 75px;
+        font-size: 20px;
+        margin-left: 25px;
     }
 }
