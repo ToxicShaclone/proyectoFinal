@@ -667,145 +667,14 @@ footer a img{
 }
 /* fin del footer */
 
-/* menu responsive */
-
-.icon {
+.icon{
     display: none;
 }
 
-
-
-
-
 /* media queries */
 
-@media screen and (max-width:320px) {
-
-    .imgIndex img{
-        height: 300px;
-    }
-    .index div{
-        width: 100%;
-    }
-    .index div p{
-        padding: 0;
-        font-size: 14px;
-    }
-    .lol{
-        padding: 15px;
-    }
-    .logos a{
-        margin-left: 10px;
-    }
-    .logos p{
-        font-size: 15px;
-    }
-    .logos img{
-        height: 30px;
-        width: 30px;
-    }
-
-    .divPadre div{
-        width: 100%;
-    }
-    .divPadre div p{
-        font-size: 1rem;
-    }
-
-    .carousel-item img{
-        width: 301px !important;
-        margin-left: 50px;
-        object-fit: cover;
-    }
-
-    .imgIndex1 img{
-        height: 300px;
-    }
-    .pyh img{
-        object-fit: contain;
-        width: 320px;
-        height: 375px;
-        margin: 0;
-    }
-    .divDrake img{
-        width: 250px;
-    }
+@media screen and (max-width:768px) {
     
-    .lineas1 div img{
-        width: 252px;
-    }
-    
-    .formulario div .btn_form{
-        width: 125px;
-        height: 60px;
-        font-size: 14px;
-        margin-right: 0;
-    }
-}
-
-@media screen and (max-width:375px){
-    
-    .imgIndex1 img{
-        height: 300px;
-    }
-
-    .imgIndex img{
-        height: 300px;
-    }
-
-    .pyh img{
-        width: 400px;
-        height: 380px;
-        object-fit: cover;
-    }
-
-    .divPadre div p{
-        margin: 0;
-    }
-    
-    .carousel-item img{
-        width: 360px !important;
-        margin-left: 20px;
-    }
-
-    .lineas1 div h2{
-        margin-left: 15px;
-    }
-
-    .lineas1 div img{
-        width: 303px;
-    }
-
-    .container_principal img{
-        width: 300px;
-    }
-    .formulario{
-        width: 90%;
-        
-    }
-    .formulario div {
-        padding: 2%;
-    } 
-    label{
-        font-size: 17px;
-    }
-    textarea{
-        width: 200px;
-        height: 100px;
-        margin-left: 10px;
-    }
-    .formulario div .btn_form{
-        width: 140px;
-        height: 70px;
-        font-size: 15px;
-        margin-right: 20px;
-    }
-
-    
-}
-
-@media screen and (max-width:425px){
-
     .logoMenu1{
         margin-left: 0;
     }
@@ -851,68 +720,6 @@ footer a img{
         left: 20px;
         top: 20px;
     }
-
-    .imgIndex1 img{
-        height: 400px;
-    }
-
-    .imgIndex img{
-        height: 400px;
-    }
-
-    .index div{
-        
-        width: 90%;
-    }
-
-    .index div p{
-        font-size: 1.1rem;
-    }
-
-    .logos p{
-        font-size: 1.1rem;
-    }
-
-    .logos a{
-        margin-right: 10px;
-    }
-
-    .divPadre div{
-        width: 90%;
-    }
-
-    .lineas1 div{
-        width: 90%;
-    }
-
-    .lineas1 div img{
-        width: 350px;
-        height: 100px;
-        position: absolute;
-    } 
-    .row div{
-        width: 80%;
-    }
-    .divCarrusel{
-        display: block;
-    }
-    
-    .contenedorJg{
-        display: block;
-    }
-
-    .container_principal{
-        display: block;
-    }
-
-    .container_principal div{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width:768px) {
-    
-    
 
     .index div{
         width: 100%;
@@ -976,5 +783,214 @@ footer a img{
         height: 75px;
         font-size: 20px;
         margin-left: 25px;
+    }
+}
+
+@media screen and (max-width:425px){
+
+    .imgIndex1 img{
+        height: 400px;
+    }
+
+    .imgIndex img{
+        height: 400px;
+    }
+
+    .index div{
+        
+        width: 90%;
+    }
+
+    .index div p{
+        font-size: 1.1rem;
+    }
+
+    .logos p{
+        font-size: 1.1rem;
+    }
+
+    .logos a{
+        margin-right: 10px;
+    }
+
+    .divPadre div{
+        width: 90%;
+    }
+
+    .lineas1 div{
+        width: 90%;
+    }
+
+    .lineas1 div img{
+        width: 350px;
+        height: 100px;
+        position: absolute;
+    } 
+    .row div{
+        width: 80%;
+    }
+    .divCarrusel{
+        display: block;
+    }
+    
+    .contenedorJg{
+        display: block;
+    }
+
+    .container_principal{
+        display: block;
+    }
+
+    .container_principal div{
+        width: 90%;
+    }
+
+    .formulario{
+        width: 90%;
+    }
+    .formulario div .btn_form{
+        width: 140px;
+        height: 70px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+        margin-left: 10px;
+    }
+}
+
+@media screen and (max-width:375px){
+    
+    .imgIndex1 img{
+        height: 300px;
+    }
+
+    .imgIndex img{
+        height: 300px;
+    }
+
+    .pyh img{
+        width: 400px;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .divPadre div p{
+        margin: 0;
+    }
+    
+    .carousel-item img{
+        width: 360px !important;
+        margin-left: 20px;
+    }
+
+    .lineas1 div h2{
+        margin-left: 15px;
+    }
+
+    .lineas1 div img{
+        width: 303px;
+    }
+
+    .container_principal img{
+        width: 300px;
+    }
+    .formulario{
+        width: 90%;
+        
+    }
+    .formulario div {
+        padding: 2%;
+    } 
+    label{
+        font-size: 17px;
+    }
+    textarea{
+        width: 250px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .formulario div .btn_form{
+        width: 140px;
+        height: 70px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:320px) {
+
+    .imgIndex img{
+        height: 300px;
+    }
+    .index div{
+        width: 100%;
+    }
+    .index div p{
+        padding: 0;
+        font-size: 14px;
+    }
+    .lol{
+        padding: 15px;
+    }
+    .logos a{
+        margin-left: 10px;
+    }
+    .logos p{
+        font-size: 15px;
+    }
+    .logos img{
+        height: 30px;
+        width: 30px;
+    }
+
+    .divPadre div{
+        width: 100%;
+    }
+    .divPadre div p{
+        font-size: 1rem;
+    }
+
+    .carousel-item img{
+        width: 301px !important;
+        margin-left: 50px;
+        object-fit: cover;
+    }
+
+    .imgIndex1 img{
+        height: 300px;
+    }
+    .pyh img{
+        object-fit: contain;
+        width: 320px;
+        height: 375px;
+        margin: 0;
+    }
+    .divDrake img{
+        width: 250px;
+    }
+    
+    .lineas1 div img{
+        width: 252px;
+    }
+    
+    .formulario div .btn_form{
+        width: 125px;
+        height: 60px;
+        font-size: 14px;
+        margin-right: 0;
+    }
+
+    .formulario label{
+        font-size: 20px;
+    }
+
+    .formulario input{
+        height: 30px;
+        margin-left: 10px;
     }
 }
