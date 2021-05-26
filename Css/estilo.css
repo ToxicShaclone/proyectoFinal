@@ -679,6 +679,10 @@ footer a img{
         margin-left: 0;
     }
 
+    header{
+        background-color:#313131 ;
+    }
+
     header nav {
         position: fixed;
         left: -100%;
@@ -710,11 +714,12 @@ footer a img{
         left: 0;
     }
 
-
     .icon{
         display: block;
-        width: 50px;
-    }
+        width: 40px;
+        filter: invert(100%);
+        margin-left: 15px;
+        }
 
     .close{
         position: absolute;
