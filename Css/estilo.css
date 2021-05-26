@@ -687,6 +687,7 @@ footer a img{
         height: 100vh;
         background-color: #313131; 
         transition: left 0.5s;
+        z-index: 10;
     }
 
     header ul {
