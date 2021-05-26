@@ -673,132 +673,11 @@ footer a img{
     display: none;
 }
 
-#menuR:target{
-    display: block;
-}
+
 
 
 
 /* media queries */
-
-@media screen and (max-width:425px){
-
-    .imgIndex1 img{
-        height: 400px;
-    }
-
-    .imgIndex img{
-        height: 400px;
-    }
-
-    .index div{
-        
-        width: 90%;
-    }
-
-    .index div p{
-        font-size: 1.1rem;
-    }
-
-    .logos p{
-        font-size: 1.1rem;
-    }
-
-    .logos a{
-        margin-right: 10px;
-    }
-
-    .divPadre div{
-        width: 90%;
-    }
-
-    .lineas1 div{
-        width: 90%;
-    }
-
-    .lineas1 div img{
-        width: 350px;
-        height: 100px;
-        position: absolute;
-    } 
-    .row div{
-        width: 80%;
-    }
-    .divCarrusel{
-        display: block;
-    }
-    
-    .contenedorJg{
-        display: block;
-    }
-
-    .container_principal{
-        display: block;
-    }
-
-    .container_principal div{
-        width: 90%;
-    }
-}
-
-@media screen and (max-width:375px){
-    
-    .imgIndex1 img{
-        height: 300px;
-    }
-
-    .imgIndex img{
-        height: 300px;
-    }
-
-    .pyh img{
-        width: 400px;
-        height: 380px;
-        object-fit: cover;
-    }
-
-    .divPadre div p{
-        margin: 0;
-    }
-    
-    .carousel-item img{
-        width: 360px !important;
-        margin-left: 20px;
-    }
-
-    .lineas1 div h2{
-        margin-left: 15px;
-    }
-
-    .lineas1 div img{
-        width: 303px;
-    }
-
-    .container_principal img{
-        width: 300px;
-    }
-    .formulario{
-        width: 90%;
-        
-    }
-    .formulario div {
-        padding: 2%;
-    } 
-    label{
-        font-size: 17px;
-    }
-    textarea{
-        width: 200px;
-        height: 100px;
-        margin-left: 10px;
-    }
-    .formulario div .btn_form{
-        width: 140px;
-        height: 70px;
-        font-size: 15px;
-        margin-right: 20px;
-    }
-}
 
 @media screen and (max-width:320px) {
 
@@ -864,8 +743,177 @@ footer a img{
     }
 }
 
+@media screen and (max-width:375px){
+    
+    .imgIndex1 img{
+        height: 300px;
+    }
+
+    .imgIndex img{
+        height: 300px;
+    }
+
+    .pyh img{
+        width: 400px;
+        height: 380px;
+        object-fit: cover;
+    }
+
+    .divPadre div p{
+        margin: 0;
+    }
+    
+    .carousel-item img{
+        width: 360px !important;
+        margin-left: 20px;
+    }
+
+    .lineas1 div h2{
+        margin-left: 15px;
+    }
+
+    .lineas1 div img{
+        width: 303px;
+    }
+
+    .container_principal img{
+        width: 300px;
+    }
+    .formulario{
+        width: 90%;
+        
+    }
+    .formulario div {
+        padding: 2%;
+    } 
+    label{
+        font-size: 17px;
+    }
+    textarea{
+        width: 200px;
+        height: 100px;
+        margin-left: 10px;
+    }
+    .formulario div .btn_form{
+        width: 140px;
+        height: 70px;
+        font-size: 15px;
+        margin-right: 20px;
+    }
+
+    
+}
+
+@media screen and (max-width:425px){
+
+    .logoMenu1{
+        margin-left: 0;
+    }
+
+    header nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: #313131; 
+        transition: left 0.5s;
+    }
+
+    header ul {
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li{
+        margin: 20px 0;
+    }
+
+    header ul li a {
+        font-size: 25px;
+    }
+
+    #menu1:target{
+        left: 0;
+    }
+
+
+    .icon{
+        display: block;
+        width: 50px;
+    }
+
+    .close{
+        position: absolute;
+        left: 20px;
+        top: 20px;
+    }
+
+    .imgIndex1 img{
+        height: 400px;
+    }
+
+    .imgIndex img{
+        height: 400px;
+    }
+
+    .index div{
+        
+        width: 90%;
+    }
+
+    .index div p{
+        font-size: 1.1rem;
+    }
+
+    .logos p{
+        font-size: 1.1rem;
+    }
+
+    .logos a{
+        margin-right: 10px;
+    }
+
+    .divPadre div{
+        width: 90%;
+    }
+
+    .lineas1 div{
+        width: 90%;
+    }
+
+    .lineas1 div img{
+        width: 350px;
+        height: 100px;
+        position: absolute;
+    } 
+    .row div{
+        width: 80%;
+    }
+    .divCarrusel{
+        display: block;
+    }
+    
+    .contenedorJg{
+        display: block;
+    }
+
+    .container_principal{
+        display: block;
+    }
+
+    .container_principal div{
+        width: 90%;
+    }
+}
+
 @media screen and (max-width:768px) {
     
+    
+
     .index div{
         width: 100%;
         padding: 15px;
